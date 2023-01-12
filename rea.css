@@ -1,0 +1,251 @@
+@media(max-width:1200px) and (min-width:1000px){
+    .container{
+        width: 95%;
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+}
+@media(max-width:1000px) and (min-width:800px){
+    .container{
+        width: 95%;
+        margin: 0 auto;
+        max-width: 800px;
+    }
+}
+@media(max-width:800px) and (min-width:300px){
+    .container{
+        width: 95%;
+        margin: 0 auto;
+        max-width: 600px;
+    }
+}
+/* */
+/* info top */
+/* */
+@media(max-width:600px) and (min-width:300px){
+    .top .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .top .content .icon{
+        display: none;
+    }
+}
+/* */
+/* Mobile Navigetion bar */
+/* */
+@media(max-width:1000px) and (min-width:300px){
+    .navbar #black>ul{
+        display: none;
+    }
+    .navbar .bars{
+        display: inline-block;
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        font-size: 23px;
+    }
+    #shecbox:checked ~ .bars{
+        display: none;
+    }
+    #shecbox:checked ~ .xmark{
+        display: inline-block;
+        position: absolute;
+        top: 2%;
+        right: 3%;
+        font-size: 30px;
+        color: white;
+        z-index: 2400;
+    }
+    #shecbox:checked ~ #black>ul{
+        display: block;
+    }
+    #shecbox:checked ~ #black{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(33, 33, 33, 0.925);
+        z-index: 2400;
+    }
+    .navbar ul{
+        display: block;
+        position: absolute;
+        top: 10%;
+        left: 2%;
+        bottom: 6%;
+        width: 96%;
+        height: 84%;
+        background-color: #fff;
+        float: left;
+        overflow-y: auto;
+    }
+    .navbar ul li{
+        margin-top: 20px;
+    }
+    /* */
+    /* dropdawn */
+    /* */
+    #dropCheck{
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+    }
+    .dropsheck{
+        display: inline-block;
+        margin-left: 25px;
+        margin-top: 20px;
+        transition: .4s;
+    }
+    .dropsheck:hover{
+        color: #5cb874;
+        transition: .4s;
+    }
+    .navbar .dropdown>ul{
+        display: none;
+        position: static;
+        visibility: visible;
+        opacity: 1;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar .dropdown>a{
+        display: none;
+    }
+    #dropCheck:checked ~ .dropdown>ul{
+        display: block;
+    }
+    .navbar .dropdown ul li{
+        margin-bottom: 15px;
+    }
+    /* */
+    /* deep dropdown */
+    /* */
+    .navbar .dropdown .deepdropdown>a{
+        display: none;
+    }
+    #deepCheck{
+        display: inline-block;
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+    }
+    #deepCheck:checked ~ .deepdropdown>ul{
+        display: block;
+    }
+    .navbar .deepbox{
+        margin-left: 25px;
+        display: inline-block;
+        transition: .4s;
+    }
+    .navbar .deepbox:hover{
+        color: #5cb874;
+        transition: .4s;
+    }
+    .navbar .dropdown .deepdropdown ul{
+        display: none;
+        visibility: visible;
+        position: static;
+        opacity: 1;
+        width: 83vw;
+        padding: 0;
+    }
+    .navbar .deepdropdown ul li{
+        margin-top: 15px;
+    }
+}
+/* */
+/* Home page */
+/* */
+/* Home Page Swiper */
+/* */
+@media(max-width:1000px){
+
+    .home-swiper{
+        height: 100vh;
+    }
+}
+@media (max-width:720px){
+    .home-swiper{
+        height: 100vh;
+    }
+    .home-swiper .swiper-slide p{
+        width: 80%;
+    }
+}
+/* */
+/* Home Page Card */
+/* */
+@media (max-width:900px){
+    .home-cards{
+        height: auto;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+    }
+}
+@media (max-width:650px){
+    .home-cards{
+        height: auto;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+}
+/* */
+/* About Page */
+/* */
+@media (max-width:1000px) {
+    .about-page .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction:column-reverse;
+    }
+    .about-page .text{
+        width: 100%;
+        margin: 0;
+        margin-top: 25px;
+    }
+    .about-page .img{
+        width: 100%;
+    }
+    .about-page .text h4{
+        font-size: 25px;
+    }
+}
+/* */
+/* About Bottom Cards */
+/* */
+@media (max-width:1000px) {
+    .card-content .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:1000px) {
+    .card-content .cards{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+/* */
+/* Services Page */
+/* */
+@media (max-width:1200px) {
+    .services-page .card{
+        width: 100%;
+    }
+}
+@media (max-width:1000px){
+    .services-page .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:700px){
+    .services-page .cards{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

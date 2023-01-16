@@ -249,3 +249,161 @@
         grid-template-columns: 1fr;
     }
 }
+/* */
+/* Call Page */
+/* */
+@media (max-width:1000px) {
+    .action .call{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .action .call .text{
+        width: 100%;
+        text-align: center;
+    }
+    .action .call .text p{
+        width: 100%;
+    }
+}
+@media (max-width:500px) {
+    .action .call{
+        height: 50vh;
+    }
+}
+/* */
+/* Portfolio Page */
+/* */
+@media (max-width:1000px) {
+    .portfolio-page .cards{
+        column-count: 2;
+    }
+    .portfolio-page .card{
+        overflow: hidden;
+        width: auto;
+    }
+    .portfolio-page .card img{
+        width: 390px;
+    }
+}
+@media (max-width: 800px) {
+    .portfolio-page .cards{
+        column-count: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .portfolio-page .card img{
+        width: 500px;
+    }
+}
+@media (max-width: 600px) {
+    .portfolio-page .cards{
+        column-count: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .portfolio-page .card img{
+        width: 365px;
+    }
+}
+@media (max-width:370px) {
+    .portfolio-page .card .text{
+        left: 50px;
+    }
+    .portfolio-page .card .icon{
+        left: 50px;
+    }
+}
+/* */
+/* Team Page */
+/* */
+@media (max-width: 1000px) {
+    .team-page .count{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 800px) {
+    .team-page .count{
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width:500px) {
+    .team-page .item .img-box{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .team-page .count img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+/* */
+/* Contact Page */
+/* */
+@media (max-width:1000px) {
+    .contact-page .content-contact{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .contact-page .content-contact .contact{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .contact-page .content-contact form{
+        width: 100%;
+    }
+}
+@media (max-width:700px) {
+    .contact-page form .input-box{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+/* */
+/* Portfolio Details */
+/* */
+@media (max-width: 800px) {
+    .detals{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        height: 14vh;
+    }
+    .detals .text{
+        margin-top: 10px;
+    }
+}
+/* */
+/* Details-Swiper */
+/* */
+@media (max-width:1000px) {
+    #details-swiper .project-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #details-swiper .swiper{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 40px;
+    }
+    #details-swiper .project-content .project-text{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+}

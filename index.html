@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Green</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./rea.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
@@ -47,7 +48,7 @@
                         <li class="links"><a href="#team">Team</a></li>
                         <input type="checkbox" name="" id="dropCheck">
                         <label class="dropsheck" for="dropCheck">Deep Drop Down <i class="fa-solid fa-chevron-down"></i></label>
-                        <li  class="dropdown links"><a href="#">Drop Down<i class="fa-solid fa-angle-down"></i></a>
+                        <li class="dropdown "><a>Drop Down<i class="fa-solid fa-angle-down"></i></a>
                             <ul>
                                 <li><a href="#">Drop Down 1</a></li>
                                 <input type="checkbox" id="deepCheck">
@@ -66,7 +67,7 @@
                                 <li><a href="#">Drop Down 4</a></li>
                             </ul>
                         </li>
-                        <li class="links"><a href="#">Contact</a></li>
+                        <li class="links"><a href="#contact">Contact</a></li>
                         <li><a class="btn" href="#">Get Started</a></li>
                     </ul>
                 </div>
@@ -77,7 +78,6 @@
     </header>
 
     <!-- Home Page -->
-    
     <section id="home">
         <div class="home-swiper swiper">
             <!-- Additional required wrapper -->
@@ -131,6 +131,9 @@
             </div>
         </div>
     </section>
+    <!-- End Home Page -->
+
+    <!-- About Page -->
     <section id="about">
         <div class="container">
             <div class="about-page">
@@ -227,6 +230,9 @@
             </div>
         </div>
     </div>
+    <!-- End About Page -->
+
+    <!-- Services Page -->
     <section id="services">
         <div class="container">
             <div class="services-page">
@@ -297,20 +303,371 @@
             </div>
         </div>
     </section>
+    <div class="action">
+        <div class="container">
+            <div class="call">
+                <div class="text">
+                    <h3>Call To Action</h3>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <a class="btn" href="#">Call To Action</a>
+            </div>
+        </div>
+    </div>
+    <!-- End Services Page -->
+
+    <!-- Portfolio Page -->
     <section id="portfolio">
         <div class="container">
-            <div class="about-page">
-                
+            <div class="portfolio-page">
+                <h2>PORTFOLIO</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <ul>
+                    <li class="list active" data-filter="all">ALL</li>
+                    <li class="list" data-filter="app">APP</li>
+                    <li class="list" data-filter="card">CARD</li>
+                    <li class="list" data-filter="web">WEB</li>
+                </ul>
+                <div class="cards">
+                    <div class="card" data-item="app">
+                        <img src="./img/portfolio/portfolio-1.jpg" alt="">
+                        <div class="content">
+                            <div class="text">
+                                <h3>App 1</h3>
+                                <h4>APP</h4>
+                            </div>
+                            <div class="icon">
+                                <a class="btn"><i class="fa-solid fa-plus"></i></a>
+                                <a href="./detalis.html"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-item="app">
+                        <img src="./img/portfolio/portfolio-6.jpg" alt="">
+                        <div class="content">
+                            <div class="text">
+                                <h3>App 3</h3>
+                                <h4>APP</h4>
+                            </div>
+                            <div class="icon">
+                                <a class="btn"><i class="fa-solid fa-plus"></i></a>
+                                <a href="./detalis.html"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-item="web">
+                        <img src="./img/portfolio/portfolio-2.jpg" alt="">
+                        <div class="content">
+                            <div class="text">
+                                <h3>Web 3</h3>
+                                <h4>WEB</h4>
+                            </div>
+                            <div class="icon">
+                                <a class="btn"><i class="fa-solid fa-plus"></i></a>
+                                <a href="./detalis.html"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-item="web">
+                        <img src="./img/portfolio/portfolio-5.jpg" alt="">
+                        <div class="content">
+                            <div class="text">
+                                <h3>Web 2</h3>
+                                <h4>WEB</h4>
+                            </div>
+                            <div class="icon">
+                                <a class="btn"><i class="fa-solid fa-plus"></i></a>
+                                <a href="./detalis.html"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-item="web">
+                        <img src="./img/portfolio/portfolio-9.jpg" alt="">
+                        <div class="content">
+                            <div class="text">
+                                <h3>Web 1</h3>
+                                <h4>WEB</h4>
+                            </div>
+                            <div class="icon">
+                                <a class="btn"><i class="fa-solid fa-plus"></i></a>
+                                <a href="./detalis.html"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-item="app">
+                        <img src="./img/portfolio/portfolio-3.jpg" alt="">
+                        <div class="content">
+                            <div class="text">
+                                <h3>App 2</h3>
+                                <h4>APP</h4>
+                            </div>
+                            <div class="icon">
+                                <a class="btn"><i class="fa-solid fa-plus"></i></a>
+                                <a href="./detalis.html"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-item="card">
+                        <img src="./img/portfolio/portfolio-4.jpg" alt="">
+                        <div class="content">
+                            <div class="text">
+                                <h3>Card 2</h3>
+                                <h4>Card</h4>
+                            </div>
+                            <div class="icon">
+                                <a class="btn"><i class="fa-solid fa-plus"></i></a>
+                                <a href="./detalis.html"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-item="card">
+                        <img src="./img/portfolio/portfolio-7.jpg" alt="">
+                        <div class="content">
+                            <div class="text">
+                                <h3>Card 1</h3>
+                                <h4>CARD</h4>
+                            </div>
+                            <div class="icon">
+                                <a class="btn"><i class="fa-solid fa-plus"></i></a>
+                                <a href="./detalis.html"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-item="card">
+                        <img src="./img/portfolio/portfolio-8.jpg" alt="">
+                        <div class="content">
+                            <div class="text">
+                                    <h3>Card 3</h3>
+                                    <h4>CARD</h4>
+                                </div>
+                            <div class="icon">
+                                <a class="btn"><i class="fa-solid fa-plus"></i></a>
+                                <a href="./detalis.html"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-black">
+                    <div class="xmark">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="portfolio-swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./img/portfolio/portfolio-1.jpg" alt="">
+                                <div class="img-text1">
+                                    <h5>App</h5>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/portfolio/portfolio-2.jpg" alt="">
+                                <div class="img-text2">
+                                    <h5>App</h5>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/portfolio/portfolio-3.jpg" alt="">
+                                <div class="img-text3">
+                                    <h5>App</h5>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/portfolio/portfolio-4.jpg" alt="">
+                                <div class="img-text4">
+                                    <h5>App</h5>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/portfolio/portfolio-5.jpg" alt="">
+                                <div class="img-text5">
+                                    <h5>App</h5>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/portfolio/portfolio-6.jpg" alt="">
+                                <div class="img-text6">
+                                    <h5>App</h5>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/portfolio/portfolio-7.jpg" alt="">
+                                <div class="img-text7">
+                                    <h5>App</h5>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/portfolio/portfolio-8.jpg" alt="">
+                                <div class="img-text8">
+                                    <h5>App</h5>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/portfolio/portfolio-9.jpg" alt="">
+                                <div class="img-text9">
+                                    <h5>App</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    <!-- End Portfolio Page -->
+
+    <!-- Team Page -->
     <section id="team">
         <div class="container">
-            <div class="about-page">
-                
+            <div class="team-page">
+                <h3>TEAM</h3>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <div class="count">
+                    <div class="item">
+                        <div class="img-box">
+                            <img src="./img/team/team-1.jpg" alt="">
+                        </div>
+                        <h4>Walter White</h4>
+                        <h5>Chief Executive Officer</h5>
+                        <p>Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut</p>
+                        <div class="icon-box">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-invision"></i></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img-box">
+                            <img src="./img/team/team-2.jpg" alt="">
+                        </div>
+                        <h4>Sarah Jhinson</h4>
+                        <h5>Product Manager</h5>
+                        <p>Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus</p>
+                        <div class="icon-box">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-invision"></i></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img-box">
+                            <img src="./img/team/team-3.jpg" alt="">
+                        </div>
+                        <h4>William Anderson</h4>
+                        <h5>CTO</h5>
+                        <p>Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara</p>
+                        <div class="icon-box">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-invision"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    <!-- End Team Page -->
+
+    <!-- Contact Page -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-page">
+                <h3>CONTACT</h3>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <div class="content-contact">
+                    <div class="contact">
+                        <div class="loc">
+                            <div class="box">
+                                <div class="icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="text">
+                                    <h4>Location:</h4>
+                                    <h5>A108 Adam Street, New York, NY 535022</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="loc">
+                            <div class="box">
+                                <div class="icon">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </div>
+                                <div class="text">
+                                    <h4>Email:</h4>
+                                    <h5>info@example.com</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="loc">
+                            <div class="box">
+                                <div class="icon">
+                                    <i class="fa-solid fa-mobile-screen"></i>
+                                </div>
+                                <div class="text">
+                                    <h4>Call:</h4>
+                                    <h5>+1 5589 55488 55s</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6131044.441927201!2d64.57358194999999!3d41.38116605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1673769000989!5m2!1sru!2s" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <form id="submit-form">
+                        <div class="input-box">
+                            <div class="input-name">
+                                <label  for="name">Your Name</label>
+                                <input required class="input" id="name" type="text">
+                            </div>
+                            <div class="input-name">
+                                <label for="email">Your Email</label>
+                                <input required class="input" type="email" id="email">
+                            </div>
+                        </div>
+                        <label for="subject">Subject</label>
+                        <input required id="subject" type="text">
+                        <label for="message">Message</label>
+                        <textarea required id="message" cols="30" rows="10"></textarea>
+                        <div class="cal-centr">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Page -->
+
+    <!-- Bottom Page -->
+    <div class="bottom">
+        <div class="container">
+            <div class="bottom-content">
+                <h3>Green</h3>
+                <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+                <div class="icon">
+                    <div class="box">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="box">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="box">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="box">
+                        <i class="fa-brands fa-skype"></i>
+                    </div>
+                    <div class="box">
+                        <i class="fa-brands fa-invision"></i>
+                    </div>
+                </div>
+                <h4>© Copyright <strong>Green</strong>. All Rights Reserved</h4>
+                <h5>Designed by <a href="https://bootstrapmade.com">BootstrapMade</a></h5>
+            </div>
+        </div>
+    </div>
     <script src="./script.js"></script>
 </body>
 </html>
